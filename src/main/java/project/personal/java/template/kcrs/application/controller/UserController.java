@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import project.personal.java.template.kcrs.application.database.repository.UserDbRepository;
 import project.personal.java.template.kcrs.domain.entity.UserBasic;
 import project.personal.java.template.kcrs.services.ports.UserServicesInterface;
 

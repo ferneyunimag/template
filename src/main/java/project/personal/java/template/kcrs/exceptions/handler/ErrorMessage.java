@@ -7,13 +7,15 @@ import project.personal.java.template.kcrs.exceptions.GeneralException;
 @ToString
 @Getter
 public class ErrorMessage {
+    private int statusCode;
     private String code;
     private String exception;
     private String message;
     private String path;
     private String timeStamp;
 
-    public ErrorMessage(GeneralException e, String path){
+    public ErrorMessage(GeneralException e, String path,int statusCode){
+        this.statusCode= statusCode;
         this.code=e.getCode();
         this.exception= e.getClass().getName();
         this.message=e.getMessage();

@@ -24,6 +24,6 @@ public class UserBasic {
     private String firstName;
     private String lastName;
     private Date   birtDate;
-
+    private String information;
 
 }
